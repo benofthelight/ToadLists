@@ -1,7 +1,7 @@
 // Task.java
 // Represents a single to-do item
 public class Task {
-    private String description;
+    private final String description;
     private boolean completed;
 
     public Task(String description) {
