@@ -1,7 +1,7 @@
 //Represents a singular task
 
 public class Task {
-    private String description; //task description
+    private final String description; //task description
     private boolean completed; //states if task is true or false
 
     public Task(String description) {
